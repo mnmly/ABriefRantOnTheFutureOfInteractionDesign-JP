@@ -12,17 +12,17 @@ As it happens, designing Future Interfaces For The Future used to be my line of 
 実際のところ、未来のインターフェースをデザインすることが、僕の仕事であった。
 
 I had the opportunity to design with real working prototypes, not green screens and After Effects, so there certainly are some interactions in the video which I'm a little skeptical of, given that I've actually tried them and the animators presumably haven't. But that's not my problem with the video.
-僕は、グリーンスクリーンやAfter Effectなどを使わずに、実際に動く試作品を用いてデザインしていたため、それらのインタラクションを試して、アニメーターがおそらく試してないことも考えると、僕が少し懐疑的に思うインタラクションがいくつかこのビデオには見てとれる。でもこのビデオに感じたのはそんなことではない。
+僕は、グリーンスクリーンやAfter Effectなどを使わずに、実際に動く試作品を用いてデザインしていたため、それらのインタラクションを試たこともあるし、アニメーターがここでしてないことも試したことを考えると、僕が少し懐疑的に思うインタラクションがいくつかこのビデオには見てとれる。でもこのビデオに感じたのはそんなことではない。
 
 My problem is the opposite, really — this vision, from an interaction perspective, is not visionary. It's a timid increment from the status quo, and the status quo, from an interaction perspective, is actually rather terrible.
-むしろ、その逆とも言える, それはこのビジョンである。インタラクションの視点からみれば、こんなの全くビジョナリーではないということだ。ただ現状からの少しの付け足しでしかなく、その現状もインタラクションの視点でみても、実際のところひどいものだ。
+むしろ、その逆とも言える。 それはこのビジョンである。インタラクションの視点からみれば、こんなの全くビジョナリーではないということだ。ただ現状からの少しの付け足しでしかなく、その現状もインタラクションの視点でみても、実際のところひどいものだ。
 
 
 This matters, because visions matter. Visions give people a direction and inspire people to act, and a group of inspired people is the most powerful force in the world. If you're a young person setting off to realize a vision, or an old person setting off to fund one, I really want it to be something worthwhile. Something that genuinely improves how we interact.
-ビジョンが大切であるからこそ、これもまた重要なのである。ビジョンには人々を方向づけ、行動させる力がある。そして刺激を受けた人々は集団となり、それが世界でもっともパワフルな原動力となるのである。もしあなたが若くてあるビジョンを実現しようとしている、もしくは、若くはなくともあるビジョンに投資をしようとしているときに、僕はそのビジョンが価値のある何かであってほしいと思う。僕たちのインタラクションを本当に向上してくれる何かであって欲しいと願う。
+ビジョンは非常に重要である。ビジョンには人々を方向づけ、行動させる力がある。そして刺激を受けた人々は集団となり、それが世界でもっともパワフルな原動力となるのである。もしあなたが若くてあるビジョンを実現しようとしている、もしくは、若くはなくともあるビジョンに投資をしようとしているときに、僕はそのビジョンが価値のあるものであってほしいと願う。僕たちのインタラクションを向上してくれる何かであって欲しい。
 
 This little rant isn't going to lay out any grand vision or anything. I just hope to suggest some places to look.
-このちっちゃい弁論はグランドビジョンを提示したりなにかする訳ではない。ただ、僕は注意しておかなくてはいけないいくつかの要素を挙げておきたいと思っているだけだ。
+ここではグランドビジョンを提示したりなにかする訳ではない。ただ、僕は注意しておかなくてはいけないいくつかの要素を提示したいと思う。
 
 <img class="title" style="margin-left:275px; margin-bottom:50px; margin-top: 50px;" src="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/Images/TitleTools.png" width="50" height="53">
 
@@ -46,7 +46,7 @@ And I'm not going to talk about about technology. That's the easy part, in a sen
 また、テクノロジーについての言及も避けておく。これは、実際のところ簡単な要素だし、僕たちがコントロールできるものだからだ。テクノロジーは発明されうるが、人間の性質などそんなことできるはずも無く、僕たちはいつもここでつまづいてしまっている。
 
 I'm going to talk about that neglected third factor, human capabilities. What people can do. Because if a tool isn't designed to be used by a person, it can't be a very good tool, right?
-なので、僕は、安易に無視されている第三の要素である「人間の能力」について話したいと思う。つまり、「人々は何ができるか？」である。なぜなら、もしツールが人々に使われるようにデザインされていなければ、そんなのすばらしいツールになるはずもないでしょう？
+なので、僕は、安易に無視されている第三の要素である「人間の能力」について話したいと思う。つまり、「人々は何ができるか？」である。なぜなら、もしツールが人々に使われるようにデザインされていなければ、そんなのすばらしいツールになるはずもないだろう？
 
 
 Take another look at what our Future People are using to interact with their Future Technology:
@@ -59,12 +59,12 @@ Do you see what everyone is interacting with? The central component of this Inte
 では、みんなが何を使っているのか？このインタラクティブな未来の中心的な構成要素ですべての画像に映っている！
 
 That's right! —
-そうー
+そう。
 
 <img class="title" style="margin-left:-194px; margin-bottom:-34px; margin-top: 70px;" src="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/Images/TitleHands.png" width="990" height="191">
 
 And that's great! I think hands are fantastic! Hands make us human! It's even there in the word — human, man, mankind — manual, la mano, la main. Our hands literally define us.
-すばらしい。人間の持つ手は本当にすごい！手こそ人であるともいえる！それは言葉の中(ラテン語:manus=手])にも見てとれる - human, man, mankind - 人間は手を使うことで定義されているのだ。
+すばらしい。人間の持つ手は本当にすごい！手があるからこそ人であるともいえる！それは言葉の中(ラテン語:manus=手])にも見てとれる - human, man, mankind - 人間は手を使うことで定義されているのだ。
 
 Hands do two things. They are two utterly amazing things, and you rely on them every moment of the day, and most Future Interaction Concepts completely ignore both of them.
 手には2つの特性がある。それらは2つともにすばらしいもので、みんな毎日どの瞬間にもそれに頼っているにもかかわらず、「未来のインタラクションコンセプト」にはその概念が完全に無視されてしまっている。
@@ -96,10 +96,10 @@ Almost every object in the world offers this sort of feedback. It's so taken for
 
 
 There's a reason that our fingertips have some of the densest areas of nerve endings on the body. This is how we experience the world close-up. This is how our tools talk to us. The sense of touch is essential to everything that humans have called "work" for millions of years.
-指先が体の神経の最も集中している部分であるのは、ある理由がある。それは、我々が世界を近くで感じる為に必要なのである。ツールはこのようにして僕たちに語りかけてくる。「触る」感覚はとても大切なものだからこそ、僕たちは何年もの間"仕事"と呼んできたのである。
+指先が体の神経の最も集中している部分であるのは、ある理由がある。それは、我々が世界を近くで感じる為に必要なのである。ツールはこの指先を通して僕たちに語りかけてくる。「触る」感覚はとても大切なものだからこそ、僕たちは何年もの間"仕事"と呼んできたのである。
 
 Now, take out your favorite Magical And Revolutionary Technology Device. Use it for a bit.
-では、あなたの魔法のようなお気に入りのテクノロジーでバイスを手にして、少しの間それで遊んでみよう。
+では、あなたの魔法のようなお気に入りのあのテクノロジーデバイスを手にして、少しの間それで遊んでみよう。
 
 <img class="shadowed" src="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/Images/FeelDevice.jpg" width="400" height="275">
 
