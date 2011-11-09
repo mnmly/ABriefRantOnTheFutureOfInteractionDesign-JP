@@ -203,7 +203,7 @@ And yes, the fruits of this research are still crude, rudimentary, and sometimes
 この研究の成果はまだ粗く、初歩的で、疑わしく思えるかもしれない。
 
 In 1968 — three years before the invention of the microprocessor — Alan Kay stumbled across Don Bitzer's early flat-panel display. Its resolution was 16 pixels by 16 pixels — an impressive improvement over their earlier 4 pixel by 4 pixel display.
-1968年 - マイクロプロセッサが発明される3年前 - Alan KayはDon Bitzerの初期の底面ディスプレイのデバイスに出会った。その解像度は16ピクセルx16ピクセルであったという。それから比べれば現在に至るまでのすばらしい改良がわかるだろう。
+1968年 - マイクロプロセッサが発明される3年前 - Alan KayはDon Bitzerの初期の平面ディスプレイのデバイスに出会った。その解像度は16ピクセルx16ピクセルであったという。それから比べれば現在に至るまでのすばらしい改良がわかるだろう。
 
 <img class="shadowed" src="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/Images/FlatPanel.jpg" width="300" height="203">
 
