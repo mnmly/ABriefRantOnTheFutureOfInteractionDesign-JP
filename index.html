@@ -135,12 +135,16 @@
       }
       article{
         -webkit-backface-visibility: hidden;
-        -webkit-animation: fade-in 1.3s .2s cubic-bezier(0.230, 1.000, 0.320, 1.000 ) both;
+        -webkit-animation: fade-in 1.75s .2s cubic-bezier(0.230, 1.000, 0.320, 1.000 ) both;
         -webkit-transform: translate3d( 0, 0, 0);
         -webkit-font-smoothing: subpixel-antialiased;
       }
       article p{
         background: white; /* webkit font antialias fix*/
+      }
+      #social > *{
+        display: block;
+        margin-top: 10px !important;
       }
     </style>
   </head>
@@ -164,13 +168,35 @@
         <h4>読み始める前に!</h4>
         <h2>留意点</h2>
         <p>
-          これは<a href="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/">未来のインタラクションデザインにおける簡単な弁論</a>.の翻訳です。<br/>
+          これは<a href="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/">未来のインタラクションデザインにおける弁論</a>.の翻訳です。<br/>
           <a href="http://worrydream.com/">Bret Victor</a>氏によって書かれたものであるため、著作権などすべては彼に帰属します。</p>
       </div>
       <a href="#okay">Got it?</a>
+      <div id="social" style="display: none;">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+        <div class="fb-like" data-send="false" data-layout="button_count" data-width="120" data-show-faces="true"></div>
+        <div class="g-plusone" data-size="small" data-annotation="inline" data-width="120"></div>
+      </div>
     </section>
 
   </section>
+    <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=102714976498383";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Place this render call where appropriate -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
     <script type="text/javascript">
       $article = null
       $.get("index.md", function(data){
@@ -188,6 +214,7 @@
             $notice.find("#en h4").text("After you read");
             $notice.find("#jp h4").text("読んだ後も");
             $notice.show().css("margin-top", "100px");
+            $notice.find("#social").show();
             $('article').append($article).show();
             $('article').find('img, iframe').unwrap();
           });
