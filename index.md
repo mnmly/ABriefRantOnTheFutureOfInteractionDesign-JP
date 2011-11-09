@@ -171,7 +171,7 @@ The next time you make a sandwich, pay attention to your hands. Seriously! Notic
 <img class="shadowed" src="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/Images/NotASandwich.jpg" width="360" height="240">
 
 Are we really going to accept an Interface Of The Future that is less expressive than a sandwich?
-サンドイッチ作りに比べて全然魅力手でない、このインターフェイスの未来をあなたは本当に受け入れるのか？
+サンドイッチ作りに比べて全然魅力的でない、このインターフェイスの未来をあなたは本当に受け入れるのか？
 
 <img class="title" style="margin-left:-124px; margin-bottom:-50px; margin-top: -10px;" src="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/Images/TitleFuture.png" width="856" height="240">
 
