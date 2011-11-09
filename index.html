@@ -6,151 +6,49 @@
     <script src="https://raw.github.com/github/github-flavored-markdown/gh-pages/scripts/showdown.js"></script>
 
     <style type="text/css">
-      ::selection{
-        background: black;
-        color: white;
-      }
-      html{
-        padding: 0;
-        margin: 0;
-      }
-      section{
-        font-family: Cambria, "ヒラギノ明朝 Pro W3","Hiragino Mincho Pro", "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-        display: block;
-        width: 600px;
-        margin: 0 auto;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        font-size: 14px;
-        position: relative;
-      }
-      p{
-        -webkit-transition: color, font-size 1s  cubic-bezier(0.860, 0.000, 0.070, 1.000);
-        color: hsl(0, 0%, 0%);
-      }
-      /* ja */
-      p:nth-of-type(2n){
-        font-size: .9em;
-        letter-spacing: 0.08em;
-        line-height: 1.85em;
-      }
-      
-      p:nth-of-type(2n+1){
-        font-size: .7em;
-        color: hsl(0, 0%, 80%);
-        margin-bottom: 1em;
-      }
-      nav{
-        position: absolute;
-        top: 50px;
-        display: block;
-      }
-      nav>a{
-        font-family: "Helvetica", "ヒラギノゴシック Pro W3","Hiragino Gothic Pro";
-        text-decoration: none;
-        color: hsl(0, 0%, 50%);
-      }
-
-      a[href='#lang']{
-        color: hsl(0, 0%, 0%);
-      }
-      section:target a[href='#lang']{
-        color: hsl(0, 0%, 50%);
-      }
-
-      section:target a[href='#']{
-        color: hsl(0, 0%, 0%);
-      }
-      section:target p:nth-of-type(2n){
-        font-size: .7em;
-        color: hsl(0, 0%, 80%);
-      }
-
-      section:target p:nth-of-type(2n+1){
-        font-size: 1em;
-        color: hsl(0, 0%, 0%);
-      }
-      img{
-        margin: 0 auto;
-        display: block;
-      }
-      h2, h4{
-        margin: 0;
-        padding: 0;
-      }
-      section#notice{
-        font-family: "Helvetica", "ヒラギノゴシック Pro W3","Hiragino Gothic Pro";
-        background: black;
-        color: white;
-        display: block;
-        padding: 50px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        border-radius: 10px;
-      }
-      section#notice h4{
-        margin-bottom: 10px;
-      }
-      section#notice p{
-        line-height: 1.7em;
-      }
-
-      section#notice a{
-        color: hsl(0, 0%, 60%);
-      }
-
-      section#notice #en{
-        margin-bottom: 50px;
-      }
-      section#notice a[href*=okay]{
-        display: inline-block;
-        margin-top: 10px;
-        background: hsl(0, 0%, 80%);
-        color: black;
-        padding: 5px 10px;
-        border-radius: 3px;
-        text-decoration: none;
-        border-bottom: 1px solid transparent;
-        box-shadow: 0 -1px 0 hsl(0, 0%, 100%);
-        pointer: cursor;
-      }
-
-      section#notice a[href*=okay]:active{
-        box-shadow: 0 -1px 0 hsl(0, 0%, 30%), 0 -1px 1px hsl(0, 0%, 30%) inset;
-        border-bottom: 0px;
-        margin-top: 11px;
-      }
+      /* Keyframes */
       @-webkit-keyframes fade-in{
-        0%{
-          opacity: 0;
-          -webkit-transform: translate3d(0, 300px, 0);
-        }
-        60%{
-          opacity: 1;
-        }
-        100%{
-          -webkit-transform: translate3d(0, 0px, 0);
-        }
+        0%   { opacity: 0; -webkit-transform: translate3d(0, 300px, 0); }
+        100% { opacity: 1; -webkit-transform: translate3d(0, 0px, 0); }
       }
-      article{
-        -webkit-backface-visibility: hidden;
-        -webkit-animation: fade-in 1.75s .2s cubic-bezier(0.230, 1.000, 0.320, 1.000 ) both;
-        -webkit-transform: translate3d( 0, 0, 0);
-        -webkit-font-smoothing: subpixel-antialiased;
+      @-moz-keyframes fade-in{
+        0%   { opacity: 0; -moz-transform: translate(0, 300px); }
+        100% { opacity: 1; -moz-transform: translate(0, 0px); }
       }
-      article p{
-        background: white; /* webkit font antialias fix*/
-      }
-      #social > *{
-        display: block;
-        margin-top: 10px !important;
-      }
+      ::selection{ background: black; color: white; }
+
+      html { padding: 0; margin: 0; }
+      img { margin: 0 auto; display: block; }
+      h2, h4{ margin: 0; padding: 0; }
+      p { -webkit-transition: color, font-size 1s cubic-bezier(0.860, 0.000, 0.070, 1.000); -moz-transition: color, font-size 1s  cubic-bezier(0.860, 0.000, 0.070, 1.000); color: hsl(0, 0%, 0%); }
+      
+      section { font-family: "Hoefler Text", "ヒラギノ明朝 Pro W3","Hiragino Mincho Pro", Times, "Times New Roman", serif; font-size: 14px; position: relative; display: block; width: 600px; margin: 0 auto; padding-top: 100px; padding-bottom: 100px; }
+      section nav { position: absolute; display: block; top: 50px; }
+      section nav>a{ font-family: "Helvetica", "ヒラギノゴシック Pro W3","Hiragino Gothic Pro", sans-serif; text-decoration: none; color: hsl(0, 0%, 50%); }
+      section nav>a[href='#lang']{ color: hsl(0, 0%, 0%); }
+      section:target nav>a[href='#lang'] { color: hsl(0, 0%, 50%); }
+      section:target nav>a[href='#'] { color: hsl(0, 0%, 0%); }
+      section p:nth-of-type(2n){ font-size: .9em; letter-spacing: 0.08em; line-height: 1.85em; }
+      section p:nth-of-type(2n+1){ font-size: .7em; color: hsl(0, 0%, 80%); margin-bottom: 1em; line-height: 1.85em; }
+      section:target p:nth-of-type(2n) { font-size: .7em; color: hsl(0, 0%, 80%); }
+      section:target p:nth-of-type(2n+1) { font-size: 1em; color: hsl(0, 0%, 0%); }
+
+      section#notice { font-family: "Helvetica", "ヒラギノゴシック Pro W3","Hiragino Gothic Pro", sans-serif; background: black; color: white; display: block; padding: 50px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-radius: 10px; }
+      section#notice h4 { margin-bottom: 10px; }
+      section#notice p { line-height: 1.7em; }
+      section#notice a { color: hsl(0, 0%, 60%); } 
+      section#notice #en { margin-bottom: 50px; }
+      section#notice a[href*=okay] { display: inline-block; margin-top: 10px; background: hsl(0, 0%, 80%); color: black; padding: 5px 10px; border-radius: 3px; text-decoration: none; border-bottom: 1px solid transparent; box-shadow: 0 -1px 0 hsl(0, 0%, 100%); pointer: cursor; }
+      section#notice a[href*=okay]:active { box-shadow: 0 -1px 0 hsl(0, 0%, 30%), 0 -1px 1px hsl(0, 0%, 30%) inset; border-bottom: 0px; margin-top: 11px; }
+      article { -webkit-backface-visibility: hidden; -webkit-animation: fade-in 1.75s .2s cubic-bezier(0.230, 1.000, 0.320, 1.000 ) both; -moz-animation: fade-in 1.75s .2s cubic-bezier(0.230, 1.000, 0.320, 1.000 ) both; -webkit-font-smoothing: subpixel-antialiased; }
+      article p { background: white; /* webkit font antialias fix*/ }
+      #social > * { display: block; margin-top: 10px !important; }
+
     </style>
   </head>
   <body>
   <section id="lang">
-    <nav>
+    <nav style="display: none;">
       <a href="#">日本語</a> | <a href="#lang">English</a>
     </nav>
     <article style="display: none;">
@@ -199,6 +97,13 @@
       })();
     </script>
     <script type="text/javascript">
+
+      $.extend( jQuery.easing, {
+        easeInOutQuart: function (x, t, b, c, d) {
+          if ((t/=d/2) < 1) return c/2*t*t*t*t + b;
+          return -c/2 * ((t-=2)*t*t*t - 2) + b;
+        }
+      });
       $article = null
       $.get("index.md", function(data){
         html = '<p>'
@@ -208,19 +113,22 @@
       $(function(){
         $("#notice a[href*=okay]").click(function(e){
           e.preventDefault();
-          $("#notice").fadeOut(500, function(){
-            $notice = $(this)
-            $notice.appendTo($('section#lang'))
+          $("#notice").animate({
+              marginTop: 100,
+              opacity  : 0
+          }, 500, "easeInOutQuart", function(){
+            $notice = $(this);
+            $notice.appendTo($('section#lang'));
             $notice.find("a[href*=okay]").remove();
             $notice.find("#en h4").text("After you read");
             $notice.find("#jp h4").text("読んだ後も");
-            $notice.show().css("margin-top", "100px");
+            $notice.css({ "opacity"   : 1 });
             $notice.find("#social").show();
             $('article').append($article).show();
+            $('nav').fadeIn(100);
             $('article').find('img, iframe').unwrap();
           });
         });
-          
       });
     </script>
   </body>
